@@ -8,7 +8,7 @@ export default function Page3() {
   return (
     <>
       <NavBar />
-      
+
       <Typography variant="h5" className={styles.headline}>
         One by one by one
       </Typography>
