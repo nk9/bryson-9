@@ -1,6 +1,6 @@
 import styles from "/styles/Home.module.css";
-import { Typography, Button, AppBar } from "@mui/material";
-import Link from "next/link";
+import { Typography, AppBar } from "@mui/material";
+import LinkButton from "/components/LinkButton";
 
 import NavBar from "/components/NavBar";
 
@@ -28,11 +28,8 @@ export default function Page2() {
           mb={6}
         >
           Actually, it's 10 puzzles this time.
-          <br />
         </Typography>
-        <Link href="/page3" passHref>
-          <Button variant="contained">How's this work, then?</Button>
-        </Link>
+        <LinkButton href="/page3">How's this work, then?</LinkButton>
       </div>
     </>
   );
