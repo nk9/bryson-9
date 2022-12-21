@@ -21,7 +21,7 @@ export default function Page3() {
           When you have solved a set of chapters, enter them here to check your
           work.
         </Typography>
-        <LinkButton href="/check">Check, Mate!</LinkButton>
+        <LinkButton href="/check1">Check, Mate!</LinkButton>
       </div>
     </>
   );
