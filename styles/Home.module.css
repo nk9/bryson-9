@@ -129,13 +129,25 @@
 }
 */
 
+.landing_page {
+  height: 100vh;
+}
+
 .container {
  padding: 0 2rem;
  display: flex;
  flex-direction: column;
  justify-content: center;
  align-items: center;
- height: 100vh;
- background-color: aquamarine;
+/* height: 100vh;*/
+ background-color: white;
  color: black;
+}
+
+.headline {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  background-color: white;
+  color: black;
+  text-align: center;
 }
