@@ -16,9 +16,11 @@ export default function Page2() {
         <Typography variant="body1" align="left" mb={2} sx={{ width: "100%" }}>
           One more journey around the sun.
           <br />
+          One more day of maximum fun.
+          <br />
           One more year in the rear-view.
           <br />
-          And one more puzzle to work through.
+          One more puzzle to work through.
         </Typography>
         <Typography
           variant="body1"
@@ -27,9 +29,9 @@ export default function Page2() {
           sx={{ width: "100%" }}
           mb={6}
         >
-          Actually, it's 10 puzzles this time.
+          Actually, it’s 10 puzzles this time.
         </Typography>
-        <LinkButton href="/page3">How's this work, then?</LinkButton>
+        <LinkButton href="/page3">How’s this work, then?</LinkButton>
       </div>
     </>
   );
