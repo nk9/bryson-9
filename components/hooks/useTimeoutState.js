@@ -12,8 +12,10 @@ export default function useTimeoutState(defaultState) {
 
       _setState(action);
 
-      const id = setTimeout(() => _setState(defaultState), opts.timeout);
-      setCurrentTimeoutId(id);
+      if (opts && opts.timeout) {
+        const id = setTimeout(() => _setState(defaultState), opts.timeout);
+        setCurrentTimeoutId(id);
+      }
     },
     [currentTimeoutId, defaultState]
   );

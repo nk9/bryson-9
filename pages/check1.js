@@ -45,6 +45,9 @@ export default function Check1() {
             }
           }
         });
+    } else {
+      setNextDisabled(true);
+      setShowMessage(false);
     }
   }, [ch1, ch2, ch3]);
 
