@@ -47,7 +47,7 @@ export default function Check3() {
           }
         });
     }
-  }, [ch7, ch8, ch9, ch10]);
+  }, [ch7, ch8, ch9, ch10, setShowMessage]);
 
   return (
     <>
