@@ -71,7 +71,7 @@ export default function Check3() {
           <NumField chapter={10} value={ch10} setValue={setCh10} />
         </Box>
         <LinkButton href={`/success-${nextSecret}`} disabled={nextDisabled}>
-          Carry on!
+          Show me!
         </LinkButton>
         {showMessage && (
           <Typography variant="body1" mt={1}>
