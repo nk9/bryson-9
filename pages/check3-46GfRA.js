@@ -58,6 +58,7 @@ export default function Check3() {
       <div className={styles.container}>
         <Box
           component="form"
+          mb={2}
           sx={{
             "& .MuiTextField-root": { m: 1, width: "100%" },
           }}
@@ -72,7 +73,11 @@ export default function Check3() {
         <LinkButton href={`/success-${nextSecret}`} disabled={nextDisabled}>
           Carry on!
         </LinkButton>
-        {showMessage && <Typography variant="body1">{message}</Typography>}
+        {showMessage && (
+          <Typography variant="body1" mt={1}>
+            {message}
+          </Typography>
+        )}
       </div>
     </>
   );
