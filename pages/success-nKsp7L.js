@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-import { Typography, Fade } from "@mui/material";
+import { Typography, Fade, Paper, Box } from "@mui/material";
 import NavBar from "/components/NavBar";
 
 import styles from "/styles/Home.module.css";
@@ -48,28 +48,34 @@ export default function Success() {
             </Typography>
 
             <Fade in={showCodes} timeout={2000}>
-                <Typography
-                    variant="h2"
-                    sx={{
-                        color: "lightgray",
-                        fontWeight: "bold",
-                        textAlign: "center",
-                    }}
-                >
-                    748
-                </Typography>
-            </Fade>
-            <Fade in={showCodes} timeout={2000}>
-                <Typography
-                    variant="h2"
-                    sx={{
-                        color: "purple",
-                        fontWeight: "bold",
-                        textAlign: "center",
-                    }}
-                >
-                    581
-                </Typography>
+                <Box display="flex" alignItems="center">
+                    <Box display="inline-block" margin="auto">
+                        <Paper elevation={10}>
+                            <Box padding={2}>
+                                <Typography
+                                    variant="h2"
+                                    sx={{
+                                        color: "lightgray",
+                                        fontWeight: "bold",
+                                        textAlign: "center",
+                                    }}
+                                >
+                                    748
+                                </Typography>
+                                <Typography
+                                    variant="h2"
+                                    sx={{
+                                        color: "purple",
+                                        fontWeight: "bold",
+                                        textAlign: "center",
+                                    }}
+                                >
+                                    581
+                                </Typography>
+                            </Box>
+                        </Paper>
+                    </Box>
+                </Box>
             </Fade>
         </>
     );
