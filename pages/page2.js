@@ -14,9 +14,9 @@ export default function Page2() {
       </Typography>
       <div className={styles.container}>
         <Typography variant="body1" align="left" mb={2} sx={{ width: "100%" }}>
-          One more journey around the sun.
+          One more trip around the sun.
           <br />
-          One more day of maximum fun.
+          One more day for all the fun.
           <br />
           One more year in the rear-view.
           <br />
